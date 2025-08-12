@@ -1,6 +1,3 @@
-"""
-Setup script for Enhanced UNetMamba.
-"""
 
 from setuptools import setup, find_packages
 import os

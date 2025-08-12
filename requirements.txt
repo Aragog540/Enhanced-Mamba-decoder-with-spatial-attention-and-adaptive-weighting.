@@ -1,0 +1,62 @@
+# Core PyTorch and Lightning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+pytorch-lightning>=2.2.0
+lightning-utilities>=0.11.0
+torchmetrics>=1.3.0
+
+# Mamba dependencies
+causal-conv1d>=1.2.0
+mamba-ssm>=1.1.1
+einops>=0.7.0
+
+# Computer Vision
+opencv-python>=4.9.0
+opencv-python-headless>=4.9.0
+Pillow>=9.4.0
+scikit-image>=0.21.0
+albumentations>=1.3.0
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.13.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+timm>=0.4.12
+
+# MMSegmentation ecosystem (optional)
+mmcv>=2.1.0
+mmdet>=3.3.0
+mmengine>=0.10.1
+mmsegmentation>=1.2.0
+
+# Test Time Augmentation
+ttach>=0.0.3
+
+# Utilities
+tqdm>=4.57.0
+rich>=13.0.0
+omegaconf>=2.3.0
+hydra-core>=1.3.0
+wandb>=0.15.0  # Optional: for advanced logging
+tensorboard>=2.13.0
+
+# Development
+pytest>=7.0.0
+black>=23.0.0
+isort>=5.0.0
+flake8>=6.0.0
+
+# Optional: Advanced features
+transformers>=4.30.0  # For transformer components
+segment-anything>=1.0  # For SAM integration
+detectron2  # For advanced computer vision
+
+# System
+psutil>=5.9.0
+GPUtil>=1.4.0
